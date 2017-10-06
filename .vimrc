@@ -117,6 +117,12 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'roosta/srcery'
 Plug 'leafgarland/typescript-vim'
 Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/syntastic'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'Quramy/tsuquyomi'
 call plug#end()
 
 map <leader>f :NERDTreeFocusToggle<cr>
@@ -149,3 +155,6 @@ colorscheme molokai
 
 " Settings for YAML file
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+" Map double ENTER to insert new line on normal mode
+nmap <CR><CR> i<CR><ESC>
