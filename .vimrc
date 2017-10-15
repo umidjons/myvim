@@ -126,9 +126,12 @@ Plug 'Quramy/tsuquyomi'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --js-completer'}
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 map <leader>f :NERDTreeFocusToggle<cr>
+map <leader>n :NERDTreeToggle<cr>
 autocmd VimEnter * NERDTreeFocusToggle
 
 set t_Co=256
