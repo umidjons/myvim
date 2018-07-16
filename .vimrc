@@ -164,3 +164,7 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " Map double ENTER to insert new line on normal mode
 nmap <CR><CR> i<CR><ESC>
+
+" Beautify JSON
+nmap =j :%!python -m json.tool<CR>
+
