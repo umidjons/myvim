@@ -128,6 +128,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --js-completer'}
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-unimpaired'
 call plug#end()
 
 map <leader>f :NERDTreeFocusToggle<cr>
