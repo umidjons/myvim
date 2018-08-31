@@ -151,6 +151,7 @@ set showcmd
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set scrolloff=3
 
 " enable mouse in tmux like emulators
 set mouse+=a
