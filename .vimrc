@@ -151,6 +151,10 @@ set showcmd
 set tabstop=2
 set shiftwidth=2
 set expandtab
+" Scroll up/down the lines when there is 3 lines left
+set scrolloff=3
+" Show 10 characters when scrolling long lines left or right
+set sidescroll=10
 
 " enable mouse in tmux like emulators
 set mouse+=a
