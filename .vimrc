@@ -178,3 +178,6 @@ nmap <CR><CR> i<CR><ESC>
 " Beautify JSON
 nmap =j :%!python -m json.tool<CR>
 
+" Allow cyrillic characters to work in normal & visual modes
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+set keymap=russian-jcukenwin
