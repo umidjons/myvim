@@ -156,6 +156,11 @@ set scrolloff=3
 " Show 10 characters when scrolling long lines left or right
 set sidescroll=10
 
+" Turn off case sensitivity
+set ignorecase
+" Turn on case sensitivity when there is mixed case
+set smartcase
+
 " enable mouse in tmux like emulators
 set mouse+=a
 if &term =~ '^screen'
